@@ -10,8 +10,6 @@
 
 ---
 
-### Reflection
-
 ### 1. Pipeline for finding lane lines using OpenCV
 #### Tools and funcitons used:
 > **Tools** - OpenCV, Numpy, Matplotlib, OS, VideoFileClip, HTML (Python)
@@ -28,8 +26,9 @@
 6. Using HoughLinesP to return an image with hough lines drawn on the output of Canny transform
 ![Image 6](https://github.com/Paresh-shahare/Udacity_Self_Driving_Car_Engineer_Nanodegree/blob/master/CarND-LaneLines-P1/intermediate_results/Hough_line_drawn.png)
 7. Formation of output image by stacking lines drawn on original image.
-##### Using the same draw_lines() function to draw lane lines over videos.
 ![Image 7](https://github.com/Paresh-shahare/Udacity_Self_Driving_Car_Engineer_Nanodegree/blob/master/CarND-LaneLines-P1/intermediate_results/line_edges_output.png)
+##### Using the same draw_lines() function to draw lane lines over videos.
+![click here](https://github.com/Paresh-shahare/Udacity_Self_Driving_Car_Engineer_Nanodegree/blob/master/CarND-LaneLines-P1/test_videos_output/solidYellowLeft.mp4)
 
 
 ### 2. Potential shortcomings with current pipeline
